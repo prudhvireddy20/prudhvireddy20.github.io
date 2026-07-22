@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="K.R. Prudhvi Reddy — Builder at the intersection of AI systems and security. Multi-agent LLM frameworks, vulnerability detection pipelines, and intelligent security tooling.">
-  <meta property="og:title" content="K.R. Prudhvi Reddy · AI Systems & Security">
-  <meta property="og:description" content="Builder at the intersection of LLM reasoning and cybersecurity.">
+  <meta name="description" content="K.R. Prudhvi Reddy — Builder at the intersection of agentic AI and security operations. Planning agents, investigation pipelines, RAG over security telemetry, and LLM evaluation systems.">
+  <meta property="og:title" content="K.R. Prudhvi Reddy · Agentic AI & Security Operations">
+  <meta property="og:description" content="Builder at the intersection of agentic AI and autonomous security operations.">
   <meta property="og:type" content="website">
   <title>K.R. Prudhvi Reddy · AI Systems &amp; Security</title>
 
@@ -460,6 +460,22 @@
       color: var(--accent);
       font-size: .8125rem;
     }
+    /* System sub-labels inside experience */
+    .exp-sys {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: .6rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--violet);
+      background: rgba(139,92,246,.1);
+      border: 1px solid rgba(139,92,246,.2);
+      border-radius: 4px;
+      padding: .2rem .55rem;
+      display: inline-block;
+      margin-top: 1.25rem;
+      margin-bottom: .25rem;
+    }
+    .exp-sys:first-child { margin-top: 0; }
 
     /* =============================================
        SKILLS
@@ -651,20 +667,18 @@
     <div class="wrap hero-inner">
       <div class="hero-eyebrow">AI Systems × Security</div>
       <h1 class="hero-name">K.R. Prudhvi<br>Reddy</h1>
-      <p class="hero-tag">Builder at the Intersection of<br>LLM Reasoning &amp; Cybersecurity</p>
+      <p class="hero-tag">Builder at the Intersection of<br>Agentic AI &amp; Security Operations</p>
       <p class="hero-bio">
-        I build systems where AI reasons about security — multi-agent frameworks that critique
-        and self-correct, vulnerability detection pipelines that fuse static analysis with LLM
-        contextualization, and intelligence tooling that makes security workflows smarter.
+        I build the reasoning and retrieval layers that autonomous security systems run on —
+        planning agents, investigation agents, and response agents grounded in real security
+        telemetry, with evaluation loops that tell you when the system can actually be trusted.
       </p>
       <div class="hero-ctas">
         <a href="https://github.com/prudhvireddy20" target="_blank" rel="noopener noreferrer" class="btn-p">
-          <!-- GitHub icon -->
           <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
           GitHub
         </a>
         <a href="https://linkedin.com/in/prudhvireddy-kr" target="_blank" rel="noopener noreferrer" class="btn-o">
-          <!-- LinkedIn icon -->
           <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
           LinkedIn
         </a>
@@ -689,25 +703,29 @@
         <div class="about-text">
           <p>I'm a <strong>B.Tech AI & ML graduate</strong> (G Pulla Reddy Engineering College, 2026) with a research internship at <strong>IIT Madras</strong>, where I built an automated vulnerability detection pipeline that fused Semgrep, CodeQL, and LLM-based reasoning to contextualize security findings and reduce false positives at scale.</p>
           <p>My work lives at the boundary where <strong>AI reasoning meets real-world security workflows</strong>. I design multi-agent systems that debate, critique, and self-correct — and apply the same adversarial thinking to security: probing LLM failure modes against the <strong>OWASP LLM Top 10</strong>, evaluating hallucination rates, and building pipelines that hold up under uncertainty.</p>
+          <p>I'm a <strong>B.Tech AI &amp; ML graduate</strong> (G Pulla Reddy Engineering College, 2026) with a research internship at <strong>IIT Madras</strong> where I shipped three production-grade AI security systems: an LLM-integrated SAST pipeline, an enterprise supply chain security platform (<strong>Calder Aegis</strong>), and an <strong>LLM Vulnerability Scanner PaaS</strong> that exposes the full security reasoning workflow across 10 MCP tools.</p>
+          <p>My work sits on the same architecture stack that autonomous SOC platforms are built on — <strong>planning agents, investigation agents, and response agents</strong> that reason over live security telemetry. I build the retrieval and reasoning layers that make these agents reliable in production: RAG pipelines over security data, multi-agent critique loops for hallucination detection, and evaluation harnesses that give you ground truth on whether an agent can be trusted in front of customers.</p>
           <p>I'm drawn to the <strong>AI security niche</strong> because it's technically demanding, underserved, and at a genuine inflection point — three qualities that make it worth building in seriously.</p>
         </div>
         <div class="stats">
           <div class="stat">
-            <span class="stat-n">4</span>
-            <span class="stat-l">Production-grade AI Projects</span>
+            <span class="stat-n">7</span>
+            <span class="stat-l">Production AI systems built</span>
           </div>
           <div class="stat">
             <span class="stat-n">Currently Pursuing</span>
             <span class="stat-n">Current</span>
             <span class="stat-l">IIT Madras Research Internship</span>
+            <span class="stat-n">3</span>
+            <span class="stat-l">Systems shipped at IIT Madras</span>
           </div>
           <div class="stat">
             <span class="stat-n">4</span>
             <span class="stat-l">Industry Certifications</span>
           </div>
           <div class="stat">
-            <span class="stat-n">8</span>
-            <span class="stat-l">Security Domains in GitSec</span>
+            <span class="stat-n">10</span>
+            <span class="stat-l">MCP tools in LLM scanner</span>
           </div>
         </div>
       </div>
@@ -727,7 +745,6 @@
         <div class="proj-grid">
 
           <!-- MULTI-AGENT DEBATE -->
-          <!-- TODO: update href to your exact repo, e.g. https://github.com/prudhvireddy20/multi-agent-debate-system -->
           <a class="proj-card rv" href="https://github.com/prudhvireddy20/debate" target="_blank" rel="noopener noreferrer">
             <div class="proj-ico" style="background:rgba(139,92,246,.12)">🤖</div>
             <div class="proj-title">Multi-Agent Debate System</div>
@@ -747,7 +764,6 @@
           </a>
 
           <!-- GITSEC -->
-          <!-- TODO: update href to your exact repo -->
           <a class="proj-card rv rv-d1" href="https://github.com/prudhvireddy20/gitsec" target="_blank" rel="noopener noreferrer">
             <div class="proj-ico" style="background:rgba(34,211,238,.1)">🔍</div>
             <div class="proj-title">GitSec Intelligence</div>
@@ -765,7 +781,6 @@
           </a>
 
           <!-- ANOMALY DETECTION -->
-          <!-- TODO: update href to your exact repo -->
           <a class="proj-card rv rv-d2" href="https://github.com/prudhvireddy20/anamoly" target="_blank" rel="noopener noreferrer">
             <div class="proj-ico" style="background:rgba(59,130,246,.1)">📈</div>
             <div class="proj-title">Anomaly Detection System</div>
@@ -783,7 +798,6 @@
           </a>
 
           <!-- BITNET -->
-          <!-- TODO: update href to your exact repo -->
           <a class="proj-card rv rv-d3" href="https://github.com/prudhvireddy20/BitNet" target="_blank" rel="noopener noreferrer">
             <div class="proj-ico" style="background:rgba(16,185,129,.1)">⚡</div>
             <div class="proj-title">BitNet LLM Quantization Study</div>
@@ -820,10 +834,19 @@
           <div class="exp-role">Security Research Intern</div>
           <div class="exp-org">IIT Madras — Indian Institute of Technology Madras</div>
           <ul class="exp-ul">
-            <li>Built an automated vulnerability detection pipeline integrating Semgrep and CodeQL with an LLM reasoning layer to contextualize findings and reduce false positives.</li>
-            <li>Designed a multi-stage triage system where LLMs validate, explain, and prioritize static analysis outputs — improving signal-to-noise ratio for security engineers.</li>
-            <li>Deployed the full pipeline via GitHub Actions and Docker for CI/CD-integrated, per-commit security analysis in development workflows.</li>
-            <li>Explored adversarial prompting, prompt injection vectors, and LLM failure modes relevant to the OWASP LLM Top 10 within the vulnerability detection context.</li>
+
+            <span class="exp-sys">System 1 — SAST + LLM Pipeline</span>
+            <li>Built an LLM-integrated SAST pipeline fusing Semgrep and CodeQL outputs with a Claude-based reasoning layer — the LLM validates, explains, and prioritizes findings to reduce false positives and improve signal quality for security engineers.</li>
+            <li>Deployed end-to-end via GitHub Actions and Docker; hardened the reasoning layer against prompt injection and OWASP LLM Top 10 failure modes relevant to production AI security tooling.</li>
+
+            <span class="exp-sys">System 2 — Calder Aegis</span>
+            <li>Designed and built Calder Aegis, an enterprise software supply chain security platform with LLM-powered CVE reachability analysis, SBOM generation (CycloneDX / SPDX), and compliance scoring across SOC2, ISO27001, NIST, PCI-DSS, HIPAA, and SLSA.</li>
+            <li>Implemented CVE/EPSS/OSV matching with graph-based dependency traversal to surface exploitable vulnerabilities in third-party supply chains; added a digital twin simulation layer for breach-impact modeling.</li>
+
+            <span class="exp-sys">System 3 — LLM Vulnerability Scanner PaaS</span>
+            <li>Built an LLM Vulnerability Scanner PaaS using Joern (Code Property Graph construction) and KuzuDB as the graph backend, with Claude Haiku as the orchestrator and Claude Sonnet (AWS Bedrock) as the chain-of-thought classifier.</li>
+            <li>Exposed the full vulnerability reasoning workflow as 10 MCP tools, enabling downstream agents to query, triage, and explain security findings programmatically — all outputs in SARIF 2.1.0 for SIEM and CI/CD pipeline integration.</li>
+
           </ul>
         </div>
       </div>
@@ -850,6 +873,9 @@
               <span class="chip">ChromaDB</span>
               <span class="chip">Prompt Engineering</span>
               <span class="chip">Anthropic MCP</span>
+              <span class="chip">AWS Bedrock</span>
+              <span class="chip">Claude API</span>
+              <span class="chip">MCP Tool Development</span>
             </div>
           </div>
           <div class="sg">
@@ -882,6 +908,12 @@
               <span class="chip">SAST / SCA</span>
               <span class="chip">Adversarial ML</span>
               <span class="chip">OWASP LLM Top 10</span>
+              <span class="chip">Joern (CPG)</span>
+              <span class="chip">KuzuDB</span>
+              <span class="chip">SARIF 2.1.0</span>
+              <span class="chip">SBOM (CycloneDX / SPDX)</span>
+              <span class="chip">Supply Chain Security</span>
+              <span class="chip">CVE / EPSS / OSV</span>
             </div>
           </div>
           <div class="sg">
@@ -993,7 +1025,6 @@
   <script>
     // ============================================
     // CANVAS — Multi-agent node network animation
-    // Represents interconnected agents in debate
     // ============================================
     (function () {
       const canvas = document.getElementById('hero-canvas');
@@ -1013,18 +1044,15 @@
           this.r  = Math.random() * 1.5 + 1;
         }
         tick() {
-          // Gentle mouse repulsion
           const dx = this.x - mx, dy = this.y - my;
           const d  = Math.hypot(dx, dy);
           if (d < 180 && d > 0) {
             this.vx += (dx / d) * .014;
             this.vy += (dy / d) * .014;
           }
-          // Speed cap
           const s = Math.hypot(this.vx, this.vy);
           if (s > 0.85) { this.vx *= .85/s; this.vy *= .85/s; }
           this.x += this.vx; this.y += this.vy;
-          // Wraparound
           if (this.x < -20) this.x = W + 20;
           else if (this.x > W + 20) this.x = -20;
           if (this.y < -20) this.y = H + 20;
