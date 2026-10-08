@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>K.R. Prudhvi Reddy · AI systems engineer</title>
-  <meta name="description" content="K.R. Prudhvi Reddy builds agentic AI systems that can be trusted: guarded agent runtimes, LLM-powered security platforms, and MCP tooling.">
+  <title>K.R. Prudhvi Reddy · AI/ML engineer</title>
+  <meta name="description" content="K.R. Prudhvi Reddy — AI/ML engineer building LLM and GenAI systems in Python: LLM triage pipelines, graph-based code analysis, recursive LLM reasoning, and multi-agent and RAG systems.">
   <link rel="canonical" href="https://prudhvireddy20.github.io/">
-  <meta property="og:title" content="K.R. Prudhvi Reddy · AI systems engineer">
-  <meta property="og:description" content="I build agentic AI systems that can be trusted: guarded agent runtimes, LLM-powered security platforms, and MCP tooling.">
+  <meta property="og:title" content="K.R. Prudhvi Reddy · AI/ML engineer">
+  <meta property="og:description" content="I build LLM and GenAI systems in Python: LLM triage pipelines, graph-based code analysis, recursive LLM reasoning, and multi-agent and RAG systems.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://prudhvireddy20.github.io/">
   <meta name="theme-color" content="#05091A">
@@ -170,13 +170,6 @@
     .system h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1.0625rem; font-weight: 600; margin-bottom: .625rem; }
     .system li { color: var(--text2); font-size: .9375rem; line-height: 1.7; margin-bottom: .625rem; }
 
-    /* Teaching */
-    .teach { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
-    .teach p { color: var(--text2); max-width: 60ch; margin-bottom: 1rem; }
-    .modules li { display: grid; grid-template-columns: 2rem 1fr; padding: .875rem 0; border-bottom: 1px solid var(--border); color: var(--text2); }
-    .modules li:first-child { border-top: 1px solid var(--border); }
-    .modules span { color: var(--accent-2); font-family: 'Space Grotesk', sans-serif; font-weight: 600; }
-
     /* Skills */
     .skills-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 2rem 2.5rem; }
     .sg h3 { font-family: 'Space Grotesk', sans-serif; font-size: 1rem; font-weight: 600; margin-bottom: .75rem; }
@@ -206,7 +199,7 @@
     @media (max-width: 860px) {
       .nav-links { display: none; }
       #hamburger { display: flex; }
-      .about-grid, .teach { grid-template-columns: 1fr; gap: 2.5rem; }
+      .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
       .proj-card.featured { grid-column: auto; }
     }
     @media (max-width: 560px) {
@@ -229,7 +222,6 @@
       <li><a href="#about">About</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#experience">Experience</a></li>
-      <li><a href="#teaching">Teaching</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -242,7 +234,6 @@
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
     <a href="#experience">Experience</a>
-    <a href="#teaching">Teaching</a>
     <a href="#skills">Skills</a>
     <a href="#contact">Contact</a>
   </div>
@@ -253,20 +244,21 @@
   <header id="hero">
     <canvas id="hero-canvas" aria-hidden="true"></canvas>
     <div class="wrap hero-inner">
-      <p class="hero-kicker">AI systems engineer</p>
+      <p class="hero-kicker">AI/ML engineer</p>
       <h1 class="hero-name">K.R. Prudhvi<br>Reddy</h1>
-      <p class="hero-tag">I build agentic AI systems that can be trusted.</p>
+      <p class="hero-tag">I build LLM and GenAI systems in Python.</p>
       <p class="hero-bio">
-        Agent runtimes with guardrails and audit trails, LLM-powered security platforms,
-        and MCP tools that let other agents reason over real data. I care about the part
-        most demos skip: knowing when the system's output is actually right.
+        AI/ML engineer and B.Tech graduate in AI &amp; ML (2026). As a research intern I build
+        LLM triage pipelines, graph-based code analysis, and recursive LLM reasoning that scales
+        to large codebases — alongside multi-agent and RAG systems and anomaly-detection models,
+        behind FastAPI backends with GitHub Actions CI/CD.
       </p>
       <div class="hero-ctas">
         <a href="https://github.com/prudhvireddy20" target="_blank" rel="noopener noreferrer" class="btn-p">
           <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
           GitHub
         </a>
-        <a href="https://linkedin.com/in/prudhvireddy-kr" target="_blank" rel="noopener noreferrer" class="btn-o">LinkedIn</a>
+        <a href="https://linkedin.com/in/prudhvi-reddy-kr" target="_blank" rel="noopener noreferrer" class="btn-o">LinkedIn</a>
         <a href="mailto:k.reddyprudhvireddy20@gmail.com" class="btn-o">Email me</a>
       </div>
     </div>
@@ -278,15 +270,15 @@
       <h2 class="h2">What I build</h2>
       <div class="about-grid">
         <div class="about-text">
-          <p>I have a <strong>B.Tech in AI &amp; ML</strong> from G. Pulla Reddy Engineering College (2026) and work as a <strong>Security Research Intern at DeepTrustxAI</strong>, in collaboration with <strong>IIT Madras</strong>.</p>
-          <p>There I've built three AI security systems end to end: an LLM-assisted SAST pipeline, <strong>Calder Aegis</strong> for software supply chain security, and an <strong>LLM vulnerability scanner</strong> that exposes its whole reasoning workflow as 10 MCP tools. Each one pairs an LLM with deterministic analysis, so the model explains and prioritises findings instead of inventing them.</p>
-          <p>Outside the internship I build agent infrastructure directly on the Anthropic API: prompt-injection defences, tamper-evident audit logs, and multi-agent pipelines that critique each other's output. The common thread is <strong>AI that can be put in front of real users and still be checked</strong>.</p>
+          <p>I have a <strong>B.Tech in AI &amp; ML</strong> from G. Pulla Reddy Engineering College (2026) and work as a <strong>Research Intern at DeepTrustxAI</strong>, in collaboration with <strong>IIT Madras</strong>, in Chennai.</p>
+          <p>There I build LLM systems for code analysis: a <strong>multi-layer LLM false-positive detection pipeline</strong>, <strong>Recursive Language Models (RLMs)</strong> layered on graph-based analysis, a <strong>Code Property Graph ingestion pipeline</strong> with Joern and Kuzu, and an <strong>LLM-powered dependency analysis platform</strong> across 9 ecosystems. Each pairs an LLM with deterministic graph and rule-based analysis, so the model reasons only over the paths that actually matter.</p>
+          <p>Alongside that I build <strong>multi-agent and RAG systems</strong> and machine learning models for <strong>anomaly detection</strong> (LSTM, Isolation Forest, One-Class SVM), on FastAPI backends with GitHub Actions CI/CD.</p>
         </div>
         <div class="facts" aria-label="Highlights">
-          <div class="fact"><span class="fact-n">3</span><span class="fact-l">AI security platforms built during my internship</span></div>
-          <div class="fact"><span class="fact-n">10</span><span class="fact-l">MCP tools exposing the scanner's reasoning to other agents</span></div>
-          <div class="fact"><span class="fact-n">4</span><span class="fact-l">workshop modules I designed and taught at IIT Madras</span></div>
-          <div class="fact"><span class="fact-n">36</span><span class="fact-l">integration tests across Flask, Spring Boot, Gin, Express and polyglot repos</span></div>
+          <div class="fact"><span class="fact-n">9</span><span class="fact-l">ecosystems ingested by the dependency analysis platform</span></div>
+          <div class="fact"><span class="fact-n">7</span><span class="fact-l">code analysis tools orchestrated through GitHub Actions CI/CD</span></div>
+          <div class="fact"><span class="fact-n">6</span><span class="fact-l">tool outputs normalized into one schema for deduplication</span></div>
+          <div class="fact"><span class="fact-n">2026</span><span class="fact-l">graduating in B.Tech Artificial Intelligence &amp; Machine Learning</span></div>
         </div>
       </div>
     </div>
@@ -297,67 +289,35 @@
     <section id="projects">
       <div class="wrap section-pad">
         <h2 class="h2">Projects</h2>
-        <p class="section-intro">Independent work, mostly on making agents safer and easier to verify.</p>
+        <p class="section-intro">Independent work in GenAI, multi-agent systems and machine learning.</p>
         <div class="proj-grid">
 
-          <!-- TODO: replace this div with <a class="proj-card featured" href="REPO_URL" ...> once the repo is public -->
-          <div class="proj-card featured">
-            <p class="proj-kind">Agent infrastructure</p>
-            <h3 class="proj-title">Framework-free agent runtime on the Anthropic API</h3>
-            <p class="proj-desc">A production-style agent system built without LangChain or similar frameworks. A SecurityGuard layer detects prompt injection and hash-pins tool descriptions so a silently changed tool (an MCP "rug pull") is caught before it runs. Every action lands in an immutable audit log, tools go through a rate-limited registry, and a multi-agent orchestrator coordinates the work behind a FastAPI server.</p>
-            <div class="tags">
-              <span class="t">Anthropic API</span><span class="t">Python</span><span class="t">FastAPI</span><span class="t">MCP security</span><span class="t">Audit logging</span>
-            </div>
-            <span class="proj-cta muted">Repository coming soon</span>
-          </div>
-
-          <!-- TODO: replace with <a class="proj-card" href="REPO_URL" ...> once published -->
-          <div class="proj-card">
-            <p class="proj-kind">Open source</p>
-            <h3 class="proj-title">mcpguard</h3>
-            <p class="proj-desc">A security scanner for MCP servers that checks tool definitions and configurations for risky patterns before an agent connects to them.</p>
-            <div class="tags">
-              <span class="t">MCP</span><span class="t">CLI</span><span class="t">Security scanning</span>
-            </div>
-            <span class="proj-cta muted">In development</span>
-          </div>
-
-          <a class="proj-card" href="https://github.com/prudhvireddy20/debate" target="_blank" rel="noopener noreferrer">
-            <p class="proj-kind">Multi-agent reasoning</p>
+          <a class="proj-card featured" href="https://github.com/prudhvireddy20/debate" target="_blank" rel="noopener noreferrer">
+            <p class="proj-kind">GenAI · RAG · hallucination detection</p>
             <h3 class="proj-title">Multi-agent debate system</h3>
-            <p class="proj-desc">Five LLM agents (Ideator, Opposer, Market Analyst, Defender and Judge) run structured debates, using adversarial critique to catch weak reasoning and hallucinations.</p>
+            <p class="proj-desc">A multi-agent debate framework built with AutoGen, where LLM agents argue, challenge and refine positions in structured group discussions to reach more reasoned, hallucination-resistant conclusions. A ChromaDB-backed RAG pipeline grounds each agent's arguments in retrieved context, and the coordination is being extended to LangGraph for graph-based execution with conditional routing and persistent memory.</p>
             <div class="tags">
-              <span class="t">AutoGen</span><span class="t">LangGraph</span><span class="t">FastAPI</span><span class="t">React / TS</span><span class="t">ChromaDB</span>
+              <span class="t">AutoGen</span><span class="t">LangGraph</span><span class="t">ChromaDB</span><span class="t">RAG</span><span class="t">Python</span>
             </div>
             <span class="proj-cta">View on GitHub</span>
           </a>
 
           <a class="proj-card" href="https://github.com/prudhvireddy20/gitsec" target="_blank" rel="noopener noreferrer">
-            <p class="proj-kind">Security intelligence</p>
+            <p class="proj-kind">AI-driven trend analysis</p>
             <h3 class="proj-title">GitSec Intelligence</h3>
-            <p class="proj-desc">Mines GitHub through the REST v3 and GraphQL v4 APIs for security signals across 8 domains, with default, custom and hybrid scanning modes.</p>
+            <p class="proj-desc">A Python intelligence agent monitoring GitHub across 8 topics and 6+ keywords via the REST v3 and GraphQL v4 APIs, with star-velocity, activity-scoring and fork-to-star analytics to surface high-signal repos, and a 6-category classification system with risk flagging that emits JSON and PDF reports.</p>
             <div class="tags">
-              <span class="t">Python</span><span class="t">GraphQL v4</span><span class="t">GitHub API</span>
+              <span class="t">Python</span><span class="t">GitHub REST v3</span><span class="t">GraphQL v4</span>
             </div>
             <span class="proj-cta">View on GitHub</span>
           </a>
 
           <a class="proj-card" href="https://github.com/prudhvireddy20/anamoly" target="_blank" rel="noopener noreferrer">
-            <p class="proj-kind">Machine learning</p>
+            <p class="proj-kind">Machine learning &amp; deep learning</p>
             <h3 class="proj-title">Anomaly detection system</h3>
-            <p class="proj-desc">Combines LSTM temporal modelling, Isolation Forest and One-Class SVM for event streams where labelled data is scarce and missed anomalies are costly.</p>
+            <p class="proj-desc">Applies LSTM for temporal sequence patterns and Isolation Forest and One-Class SVM for statistical outliers, to detect unusual behavior in system data — applicable to log analysis and monitoring.</p>
             <div class="tags">
               <span class="t">LSTM</span><span class="t">Isolation Forest</span><span class="t">One-Class SVM</span>
-            </div>
-            <span class="proj-cta">View on GitHub</span>
-          </a>
-
-          <a class="proj-card" href="https://github.com/prudhvireddy20/BitNet" target="_blank" rel="noopener noreferrer">
-            <p class="proj-kind">Research study</p>
-            <h3 class="proj-title">1-bit LLM quantization with BitNet</h3>
-            <p class="proj-desc">Evaluates BitNet's speed, accuracy trade-offs and feasibility for running LLMs on constrained edge hardware.</p>
-            <div class="tags">
-              <span class="t">BitNet</span><span class="t">Quantization</span><span class="t">LLM inference</span>
             </div>
             <span class="proj-cta">View on GitHub</span>
           </a>
@@ -372,56 +332,42 @@
     <div class="wrap section-pad">
       <h2 class="h2">Experience</h2>
       <div class="exp-head">
-        <p class="exp-period">2026 – present</p>
-        <p class="exp-role">Security Research Intern</p>
+        <p class="exp-period">Dec 2025 – present · Chennai</p>
+        <p class="exp-role">Research Intern</p>
         <p class="exp-org">DeepTrustxAI Pvt Ltd, in collaboration with IIT Madras</p>
       </div>
       <div class="systems">
         <div class="system">
-          <h3>LLM-assisted SAST pipeline</h3>
+          <h3>LLM false-positive detection pipeline</h3>
           <ul>
-            <li>Fused Semgrep and CodeQL results with a Claude reasoning layer that validates, explains and prioritises findings to cut false positives.</li>
-            <li>Shipped with Docker and GitHub Actions, and hardened the reasoning layer against prompt injection and OWASP LLM Top 10 risks.</li>
+            <li>Built a multi-layer pipeline that applies CWE-aware rule-based classification to auto-resolve low-risk findings.</li>
+            <li>Sends the remaining findings to an LLM with code context for true/false-positive verdicts, reducing analyst triage load across scans.</li>
           </ul>
         </div>
         <div class="system">
-          <h3>Calder Aegis: supply chain security</h3>
+          <h3>Recursive LLM reasoning over code graphs</h3>
           <ul>
-            <li>Matches dependencies against CVE, EPSS and OSV data with graph-based traversal to surface vulnerabilities that are actually reachable.</li>
-            <li>Generates SBOMs in CycloneDX and SPDX and maps results to compliance frameworks including SOC 2, ISO 27001 and NIST.</li>
+            <li>Applied Recursive Language Models (RLMs) in a funnel architecture: graph algorithms over Kuzu handle structural analysis and pruning, while a root LLM recursively decomposes the problem and reasons only over surviving high-risk paths — scaling LLM analysis beyond a single context window.</li>
+            <li>Built a Code Property Graph ingestion pipeline with Joern and Kuzu, exporting Method and Call nodes with CALLS, DATA_FLOW and CONTROL_FLOW edges, feeding a call classifier and MCP-orchestrated LLM analysis.</li>
           </ul>
         </div>
         <div class="system">
-          <h3>LLM vulnerability scanner</h3>
+          <h3>Dependency analysis &amp; SBOM platform</h3>
           <ul>
-            <li>Builds Code Property Graphs with Joern and stores them in KuzuDB, with Claude Haiku orchestrating and Claude Sonnet on AWS Bedrock classifying findings.</li>
-            <li>Handles polyglot monorepos by profiling each repo's languages and frameworks and routing code to the right engine. Output is SARIF 2.1.0 for CI/CD and SIEM tools, and the workflow is exposed as 10 MCP tools.</li>
+            <li>Ingests repositories across 9 ecosystems and generates CycloneDX/SPDX SBOMs, matching dependencies against OSV/NVD/EPSS through REST APIs.</li>
+            <li>Uses LLM reachability analysis (GLM 5.2, DeepSeek V4 Pro, Qwen 2.5 APIs) to confirm which issues are reachable from real import sites, cutting false-positive noise.</li>
+          </ul>
+        </div>
+        <div class="system">
+          <h3>DevSecOps automation &amp; normalization</h3>
+          <ul>
+            <li>Built a Python platform orchestrating 7 code analysis tools (Semgrep, CodeQL, Gitleaks, OSV-Scanner, Syft, Trivy, OWASP Noir) through GitHub Actions CI/CD, with a GitHub App backend handling OAuth and HMAC-authenticated webhooks.</li>
+            <li>Designed a unified normalization layer mapping heterogeneous outputs from 6 tools (JSON, SARIF, CycloneDX) into a single schema for deduplication and consistent downstream analysis.</li>
           </ul>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- TEACHING -->
-  <div class="band">
-    <section id="teaching">
-      <div class="wrap section-pad">
-        <div class="teach">
-          <div>
-            <h2 class="h2">Teaching and talks</h2>
-            <p>In August 2026 I designed and delivered a four-module security workshop at IIT Madras, built around the platforms I work on.</p>
-            <p>I've also presented this work to industry professionals from KPMG and CAMS at IIT Madras events.</p>
-          </div>
-          <ol class="modules" aria-label="Workshop modules">
-            <li><span>1</span>SAST and secrets detection</li>
-            <li><span>2</span>Software composition analysis and SBOMs</li>
-            <li><span>3</span>DevSecOps orchestration</li>
-            <li><span>4</span>AI-powered security tools: TrustScan 2.0 and Calder Aegis</li>
-          </ol>
-        </div>
-      </div>
-    </section>
-  </div>
 
   <!-- SKILLS -->
   <section id="skills">
@@ -429,13 +375,12 @@
       <h2 class="h2">Skills</h2>
       <p class="section-intro">Tools I've used in the projects above.</p>
       <div class="skills-grid">
-        <div class="sg"><h3>AI and agents</h3><p>Claude API, AWS Bedrock, MCP servers and tools, LangGraph, AutoGen, RAG, ChromaDB, prompt engineering, LLM evaluation</p></div>
-        <div class="sg"><h3>Languages and backend</h3><p>Python, TypeScript, JavaScript, Java, SQL, FastAPI, async Python</p></div>
-        <div class="sg"><h3>Frontend</h3><p>React, TypeScript, Vite, HTML and CSS</p></div>
-        <div class="sg"><h3>Security</h3><p>Semgrep, CodeQL, Joern, SAST and SCA, SBOM (CycloneDX, SPDX), CVE / EPSS / OSV, SARIF, OWASP LLM Top 10</p></div>
-        <div class="sg"><h3>Data and graphs</h3><p>KuzuDB, Code Property Graphs, SQL databases</p></div>
-        <div class="sg"><h3>Infrastructure</h3><p>Docker, GitHub Actions, AWS, CI/CD, GitHub REST and GraphQL APIs</p></div>
-        <div class="sg"><h3>Machine learning</h3><p>LSTM, Isolation Forest, One-Class SVM, model evaluation, LLM quantization</p></div>
+        <div class="sg"><h3>GenAI, LLMs &amp; agents</h3><p>RAG, embeddings, LangGraph, AutoGen, Model Context Protocol (MCP), Recursive Language Models (RLM), multi-agent systems, hallucination detection, LLM reliability</p></div>
+        <div class="sg"><h3>Languages &amp; backend</h3><p>Python (primary), JavaScript, Java, SQL, FastAPI, async Python, Uvicorn, OpenAPI / Swagger, REST, GraphQL</p></div>
+        <div class="sg"><h3>Vector &amp; graph data</h3><p>ChromaDB (persistent collections, metadata filtering, semantic search), embedding pipelines, KuzuDB, Code Property Graphs</p></div>
+        <div class="sg"><h3>Code analysis &amp; security</h3><p>Joern (CPG), Semgrep, CodeQL, GitNexus, SBOM (CycloneDX, SPDX), OSV / NVD / EPSS, SARIF</p></div>
+        <div class="sg"><h3>Machine learning</h3><p>Machine learning, deep learning, model evaluation, LSTM, Isolation Forest, One-Class SVM, anomaly detection</p></div>
+        <div class="sg"><h3>MLOps &amp; DevOps</h3><p>Docker, GitHub Actions, CI/CD, Linux, configuration management</p></div>
       </div>
     </div>
   </section>
@@ -446,10 +391,10 @@
       <div class="wrap section-pad">
         <h2 class="h2">Certifications</h2>
         <div class="certs" style="margin-top:2rem">
-          <div class="cert"><p class="cert-name">Model Context Protocol (2026)</p><p class="cert-org">Anthropic</p></div>
-          <div class="cert"><p class="cert-name">Cybersecurity Fundamentals</p><p class="cert-org">Fortinet</p></div>
-          <div class="cert"><p class="cert-name">Ethical Hacking</p><p class="cert-org">NPTEL</p></div>
-          <div class="cert"><p class="cert-name">Networking Fundamentals</p><p class="cert-org">Cisco</p></div>
+          <div class="cert"><p class="cert-name">Model Context Protocol (2026)</p><p class="cert-org">Anthropic Skilljar</p></div>
+          <div class="cert"><p class="cert-name">Certified Fundamentals in Cybersecurity (2025)</p><p class="cert-org">Fortinet</p></div>
+          <div class="cert"><p class="cert-name">Ethical Hacking (2024)</p><p class="cert-org">NPTEL</p></div>
+          <div class="cert"><p class="cert-name">Networking Virtual Internship (2024)</p><p class="cert-org">Cisco</p></div>
         </div>
       </div>
     </section>
@@ -459,11 +404,11 @@
   <section id="contact">
     <div class="wrap contact-inner">
       <h2 class="contact-title">Let's build something</h2>
-      <p class="contact-sub">Open to AI product engineering and AI security roles, remote or on-site. Happy to relocate.</p>
+      <p class="contact-sub">AI/ML engineer open to roles building LLM and GenAI systems. Based in Madanapalle, Andhra Pradesh — open to relocating to Bengaluru.</p>
       <div class="contact-ctas">
         <a href="mailto:k.reddyprudhvireddy20@gmail.com" class="btn-p">k.reddyprudhvireddy20@gmail.com</a>
         <a href="https://github.com/prudhvireddy20" target="_blank" rel="noopener noreferrer" class="btn-o">GitHub</a>
-        <a href="https://linkedin.com/in/prudhvireddy-kr" target="_blank" rel="noopener noreferrer" class="btn-o">LinkedIn</a>
+        <a href="https://linkedin.com/in/prudhvi-reddy-kr" target="_blank" rel="noopener noreferrer" class="btn-o">LinkedIn</a>
       </div>
     </div>
   </section>
@@ -474,7 +419,7 @@
     <span>© 2026 K.R. Prudhvi Reddy</span>
     <div class="foot-links">
       <a href="https://github.com/prudhvireddy20" target="_blank" rel="noopener noreferrer">GitHub</a>
-      <a href="https://linkedin.com/in/prudhvireddy-kr" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://linkedin.com/in/prudhvi-reddy-kr" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       <a href="mailto:k.reddyprudhvireddy20@gmail.com">Email</a>
     </div>
   </footer>
